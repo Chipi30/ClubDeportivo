@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Gestion Estudiantes</title>
+    <link rel="stylesheet" href="../Styles/GestionEst.css">
+</head>
+<body>
+<!--datos personales de los estudiantes
+disciplina deportiva a la que pertenecen
+eventos asistidos y puesto-->
+<div class="login-box">
+    <h1>Agregar Estudiante</h1>
+    <form>
+        <label >Id</label>
+        <input type="text" placeholder="Introduzca el id del estudiante" name="id" required>
+
+        <label >Nombre</label>
+        <input type="text" placeholder="Introduzca el nombre del estudiante" name="name" required>
+
+        <label >Disciplina</label>
+        <input type="text" placeholder="Introduzca disciplina" name="disciplina" required>
+
+        <label >Eventos</label>
+        <input type="text" placeholder="Introduzca un evento" name="evento" required>
+
+        <input type="submit" value="Guardar" >
+    </form>
+</div>
+
+<div class = "login1-box">
+    <h1>Eliminar Estudiante</h1>
+    <form>
+        <label >Id</label>
+        <input type="text" placeholder="Introduzca el id del estudiante" name="id" required>
+        <!--traer al estudiante -->
+        <input type="submit" value="Eliminar" >
+    </form>
+</div>
+
+<div class="login2-box">
+    <h1>Modificar Estudiante</h1>
+    <form>
+        <label >Id</label>
+        <input type="text" placeholder="Introduzca el id del estudiante" name="id" required>
+    <!--traer al estudiante -->
+        <input type="submit" value="Guardar" >
+    </form>
+</div>
+</body>
+</html>
